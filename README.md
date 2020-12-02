@@ -1,6 +1,6 @@
 # The E.I. Elephant Shrew
 
-<img src="https://media.giphy.com/media/l41Yrs2hxxrjrIC9a/giphy.gif" width="75%">
+<img src="https://media.giphy.com/media/l41Yrs2hxxrjrIC9a/source.gif" width="75%">
 
 ## About
 This based off of a school assignment called 'The Useless Web' - a reference to an actual website. The idea was to create something pointless, in order to get acquanited with some of the basic syntax.
