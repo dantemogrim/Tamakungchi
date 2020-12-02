@@ -1,6 +1,6 @@
 # The E.I. Elephant Shrew
 
-<img src="https://giphy.com/gifs/l41Yrs2hxxrjrIC9a/html5 width="75%">
+<img src="https://giphy.com/gifs/l41Yrs2hxxrjrIC9a/html5" width="75%">
 
 
 ## About
