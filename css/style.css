@@ -1,0 +1,51 @@
+/* CSS variables colors + fonts. */
+:root {
+  --bgColor: teal;
+  --headerColor: indigo;
+  --headingColors: white;
+  --mainColor: hotpink;
+  --sectionColor: aquamarine;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--headingColors);
+}
+
+body {
+  background-color: var(--bgColor);
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: var(--headerColor);
+  padding-top: 5px;
+  text-align: center;
+}
+
+main {
+  background-color: var(--mainColor);
+}
+
+img {
+  max-width: 50%;
+}
+
+/* Button area. */
+
+button {
+  border-radius: 25% 20% 25% 20%;
+  box-shadow: 0px 5px 10px 5px grey;
+  height: 10vh;
+  width: 20vw;
+}
+
+footer {
+  background-color: var(--headerColor);
+  align-self: center;
+  max-height: 20vw;
+  max-width: 80vw;
+  text-align: center;
+}
