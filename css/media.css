@@ -2,6 +2,9 @@
 
 /* Smartphones. */
 @media screen and (max-width: 560px) {
+  img.kingen {
+    max-width: 60vw;
+  }
 }
 
 /* Tablets. */

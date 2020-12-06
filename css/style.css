@@ -36,6 +36,8 @@ main {
 
 button {
   background-color: var(--buttonColor);
+  font-family: 'tahoma';
+  color: white;
 }
 
 footer {
