@@ -1,6 +1,6 @@
 # Tamakungchi
 
-<img src="https://media.giphy.com/media/4LTGEdPueINFzycY1Ixq/giphy.gif" width="75%">
+<img src="imgs/kingen.gif" width="75%">
 
 
 ## About
