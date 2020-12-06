@@ -1,1 +1,13 @@
 /* Media queries. Break points. */
+
+/* Smartphones. */
+@media screen and (max-width: 560px) {
+}
+
+/* Tablets. */
+@media screen and (min-width: 560px) {
+}
+
+/* Desktops and larger screens. */
+@media screen and (min-width: 1024px) {
+}

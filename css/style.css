@@ -1,10 +1,10 @@
-/* CSS variable colorations. */
+/* CSS variable colorations and hero image. */
 :root {
-  --bgColor: teal;
-  --headerColor: indigo;
+  --bgColor: powderblue;
+  --headerColor: mediumpurple;
   --headingColors: white;
-  --mainColor: hotpink;
-  --sectionColor: aquamarine;
+  --mainColor: rgb(213, 233, 43);
+  --buttonColor: coral;
 }
 
 * {
@@ -20,6 +20,9 @@ p {
 }
 
 body {
+  background-image: url('../imgs/zebra.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: var(--bgColor);
 }
 
@@ -29,6 +32,10 @@ header {
 
 main {
   background-color: var(--mainColor);
+}
+
+button {
+  background-color: var(--buttonColor);
 }
 
 footer {

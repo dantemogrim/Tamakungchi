@@ -7,6 +7,7 @@ h4,
 p {
   display: flex;
   justify-content: center;
+  text-shadow: 0.2rem 0.2rem #474747;
 }
 
 header {
@@ -14,31 +15,36 @@ header {
 }
 
 main {
-  display: flex;
+  background-image: linear-gradient(rgb(111, 199, 66), yellow);
   border-radius: 30% 30%;
+  border: 1.5rem outset #c3d901;
+  box-shadow: 1vw 1vw 3vw 2vw rgb(16, 16, 16);
+  display: flex;
   justify-content: center;
-  padding: 5vw;
   margin: 5vw;
+  padding: 5vw;
 }
 
 img.kingen {
-  border: 2em outset blue;
+  border: 1.5rem inset #c3d901;
   border-radius: 30% 30%;
 }
 
 section {
-  margin: 5%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
+  margin: 5%;
 }
 
 button {
-  width: 20%;
-  height: 20vw;
   border-radius: 50% 50%;
-  box-shadow: 1vw 1vw 2vw rgb(40, 40, 40);
+  border: 1rem outset #ff5a1d;
+  box-shadow: 1vw 1vw 3vw 2vw rgb(16, 16, 16);
+  height: 20vw;
+  width: 20%;
 }
 
 footer {
+  padding: 1vw;
 }
