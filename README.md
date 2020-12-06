@@ -1,7 +1,6 @@
 # Tamakungchi
 
-<img src="imgs/kingen.gif" width="75%">
-
+<img src="imgs/kingen.gif">
 
 ## About
 This based off of a school assignment called 'The Useless Web' - a reference to an actual website. The idea was to create something pointless, in order to get acquanited with some of the basic syntax.
@@ -17,10 +16,11 @@ This based off of a school assignment called 'The Useless Web' - a reference to 
 
 ## Instructions
 To see this project, do one of two things.
-Option number 1 (easiest) is to just to head on over to the following link:
+<br>
+*Option 1:* (easiest) is to just to head on over to the following link:
 
 
-Option number 2:
+*Option 2:*
 1. Clone or fork this repository to your computer.
 2. Open up your terminal and cd into the project folder.
 3. Create a local server by using the following command: `php -S localhost:8000`
