@@ -1,4 +1,4 @@
-/* Mostly CSS variable colorations and minor adjustments here. */
+/* CSS variable colorations. */
 :root {
   --bgColor: teal;
   --headerColor: indigo;
@@ -14,7 +14,8 @@
 
 h1,
 h2,
-h3 {
+h3,
+p {
   color: var(--headingColors);
 }
 
@@ -28,10 +29,6 @@ header {
 
 main {
   background-color: var(--mainColor);
-}
-
-img {
-  max-width: 20%;
 }
 
 footer {

@@ -1,8 +1,29 @@
-/* Flexbox, alignments and such. */
+/* Flexbox, sizing and styling. */
+
+h1,
+h2,
+h3,
+h4,
+p {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  padding: 3vh;
+}
 
 main {
   display: flex;
+  border-radius: 30% 30%;
   justify-content: center;
+  padding: 5vw;
+  margin: 5vw;
+}
+
+img.kingen {
+  border: 2em outset blue;
+  border-radius: 30% 30%;
 }
 
 section {
@@ -10,4 +31,14 @@ section {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
+}
+
+button {
+  width: 20%;
+  height: 20vw;
+  border-radius: 50% 50%;
+  box-shadow: 1vw 1vw 2vw rgb(40, 40, 40);
+}
+
+footer {
 }
