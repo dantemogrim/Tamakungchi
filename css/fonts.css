@@ -1,18 +1,14 @@
-/* Font insertion. Karla. FIX. GOOGLE SUBFOLDER TO SUBFOLDER REFERENCE*/
-@font-face  {
-  font-family: 'karla';
-  src: url(../fonts/Karla-Regular.woff);
-  font-style: normal;
-  font-weight: 100;
+@font-face {
+  font-family: 'Karla';
+  src: url('../fonts/Karla.woff') format('woff'),
+    url('../fonts/Karla.woff2') format('woff2');
 }
-@font-face  {
-  font-family: 'karla';
-  src: url(../fonts/Karla-Regular.woff2);
-  font-style: normal;
-  font-weight: 100;
+
+body {
+  font-family: 'Karla';
 }
 
 p {
-  font-family: 'karla';
+  font-family: 'Karla';
   font-weight: 100;
 }

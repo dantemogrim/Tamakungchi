@@ -1,0 +1,13 @@
+/* Flexbox, alignments and such. */
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  margin: 5%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
