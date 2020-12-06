@@ -1,4 +1,4 @@
-# The E.I. Elephant Shrew
+# Tamakungchi
 
 <img src="https://media.giphy.com/media/l41Yrs2hxxrjrIC9a/giphy-downsized.gif">
 
