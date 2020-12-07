@@ -1,4 +1,9 @@
-/* Flexbox, sizing and styling. */
+/* Flexbox, sizing, margins and paddings. */
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 h1,
 h2,
@@ -7,28 +12,22 @@ h4,
 p {
   display: flex;
   justify-content: center;
-  text-shadow: 0.2rem 0.2rem #474747;
 }
 
-header {
-  width: 100%;
-  padding: 3vh;
+header,
+footer {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
 }
 
 main {
-  background-image: linear-gradient(rgb(111, 199, 66), yellow);
-  border-radius: 30% 30%;
-  border: 1.5rem outset #c3d901;
-  box-shadow: 1vw 1vw 3vw 2vw rgb(16, 16, 16);
   display: flex;
   justify-content: center;
   margin: 5vw;
   padding: 5vw;
-}
-
-img.kingen {
-  border: 1.5rem inset #c3d901;
-  border-radius: 30% 30%;
 }
 
 section {
@@ -39,13 +38,6 @@ section {
 }
 
 button {
-  border-radius: 50% 50%;
-  border: 1rem outset #ff5a1d;
-  box-shadow: 1vw 1vw 3vw 2vw rgb(16, 16, 16);
   height: 20vw;
   width: 20%;
-}
-
-footer {
-  padding: 1vw;
 }

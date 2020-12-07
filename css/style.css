@@ -7,22 +7,18 @@
   --buttonColor: coral;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 h1,
 h2,
 h3,
-p {
+h4 p {
   color: var(--headingColors);
+  text-shadow: 0.2rem 0.2rem #474747;
 }
 
 body {
   background-image: url('../imgs/zebra.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-color: var(--bgColor);
 }
 
@@ -32,12 +28,24 @@ header {
 
 main {
   background-color: var(--mainColor);
+  background-image: linear-gradient(rgb(111, 199, 66), yellow);
+  border-radius: 30% 30%;
+  border: 1.5rem outset #c3d901;
+  box-shadow: 1vw 1vw 3vw 2vw rgb(16, 16, 16);
+}
+
+img.kingen {
+  border: 1.5rem inset #c3d901;
+  border-radius: 30% 30%;
 }
 
 button {
   background-color: var(--buttonColor);
-  font-family: 'tahoma';
+  border-radius: 50% 50%;
+  border: 1rem outset #ff5a1d;
+  box-shadow: 1vw 1vw 3vw 2vw rgb(16, 16, 16);
   color: white;
+  font-family: 'tahoma';
 }
 
 footer {
