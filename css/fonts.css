@@ -1,14 +1,20 @@
+/* Different formats on Comic Sans for optimal browser coverage. */
+
 @font-face {
-  font-family: 'Karla';
-  src: url('../fonts/Karla.woff') format('woff'),
-    url('../fonts/Karla.woff2') format('woff2');
+  font-family: 'Comic Sans MS';
+  src: url('//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.eot');
+  src: url('//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.woff2')
+      format('woff2'),
+    url('//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.woff')
+      format('woff'),
+    url('//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.ttf')
+      format('truetype'),
+    url('//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.svg#Comic Sans MS')
+      format('svg');
 }
 
 body {
-  font-family: 'Karla';
-}
-
-p {
-  font-family: 'Karla';
-  font-weight: 100;
+  font-family: 'Comic Sans MS';
 }
