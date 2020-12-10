@@ -8,12 +8,11 @@ const quotes = [
   'Vad är det här för rätt? Små-Tarzans med Allan-syndrom?',
 ];
 
-const quote = quotes[Math.floor(Math.random() * quotes.length)];
-
 /* Feed button with window alert event. */
 const feedButton = document.getElementById('feed');
 
 feedButton.addEventListener('click', () => {
+  const quote = quotes[Math.floor(Math.random() * quotes.length)];
   window.alert(quote);
 });
 
@@ -25,7 +24,23 @@ const coolSongs = [
   'that-song.mp3',
 ];
 
-let tamagotchiSong = document.getElementById('music');
-function play() {
-  tamagotchiSong.play();
-}
+//THIS ONE WORKS
+// let tamagotchiSong = document.getElementById('music');
+// function play() {
+//   tamagotchiSong.play();
+// }
+//THIS ONE WORKS
+
+
+/*PLAYGROUND TEST SITE */
+
+playButton.addEventListener('click', () => {
+  const coolSong = coolSongs[Math.floor(Math.random() * coolSongs.length)];
+ function() {
+   coolSong.play();
+});
+
+
+
+
+/* */ 

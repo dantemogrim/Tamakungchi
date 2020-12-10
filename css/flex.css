@@ -1,8 +1,15 @@
 /* Flexbox, sizing, margins and paddings. */
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 h1,
@@ -16,14 +23,14 @@ p {
 
 header,
 footer {
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
 }
 
 main {
+  flex-grow: 1;
   display: flex;
   justify-content: center;
   margin: 5vw;
