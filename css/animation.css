@@ -1,0 +1,14 @@
+div.keyframe {
+  width: 300px;
+  height: auto;
+  animation-name: disco;
+  animation-iteration-count: infinite;
+}
+@keyframes disco {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}

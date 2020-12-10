@@ -1,6 +1,7 @@
 /* CSS variable colorations and hero image. */
 :root {
   --bgColor: powderblue;
+  --borderColor: hotpink;
   --headerColor: mediumpurple;
   --headingColors: white;
   --mainColor: rgb(213, 233, 43);
@@ -22,8 +23,12 @@ body {
   background-color: var(--bgColor);
 }
 
-header {
+header,
+footer {
   background-color: var(--headerColor);
+  border-style: ridge;
+  border-width: 0.9pc;
+  border-color: var(--borderColor);
   color: white;
 }
 
@@ -31,19 +36,19 @@ main {
   background-color: var(--mainColor);
   background-image: linear-gradient(rgb(191, 255, 162), rgb(217, 255, 79));
   border-radius: 30% 30%;
-  border: 1.5rem outset #c3d901;
+  border: 1rem outset #c3d901;
   box-shadow: 1vw 1vw 3vw 2vw rgb(16, 16, 16);
 }
 
 img.kingen {
-  border: 1.5rem inset #c3d901;
+  border: 1rem inset #c3d901;
   border-radius: 30% 30%;
 }
 
 button {
   background-color: var(--buttonColor);
   border-radius: 50% 50%;
-  border: 1rem outset #ff5a1d;
+  border: 1rem double #ff5a1d;
   box-shadow: 1vw 1vw 3vw 2vw rgb(16, 16, 16);
   color: white;
   font-family: 'tahoma';
