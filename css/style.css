@@ -1,4 +1,5 @@
 /* CSS variable colorations and hero image. */
+
 :root {
   --bgColor: powderblue;
   --borderColor: hotpink;
@@ -11,9 +12,10 @@
 h1,
 h2,
 h3,
-h4 p {
+h4,
+p {
   color: var(--headingColors);
-  text-shadow: 0.2rem 0.2rem #474747;
+  text-shadow: 0.3rem 0.4rem 0.5rem #000000;
 }
 
 body {
@@ -48,7 +50,7 @@ img.kingen {
 button {
   background-color: var(--buttonColor);
   border-radius: 50% 50%;
-  border: 1rem double #ff5a1d;
+  border: 1rem double #3351ff;
   box-shadow: 1vw 1vw 3vw 2vw rgb(16, 16, 16);
   color: white;
   font-family: 'tahoma';
