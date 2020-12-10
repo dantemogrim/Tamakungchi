@@ -16,14 +16,6 @@ feedButton.addEventListener('click', () => {
   window.alert(quote);
 });
 
-/* Play button with play audio event. HOW MAKE THIS LOOPIE? */
-
-const coolSongs = [
-  'audio/daze-tamagotchi.mp3',
-  'this-song.mp3',
-  'that-song.mp3',
-];
-
 //THIS ONE WORKS
 // let tamagotchiSong = document.getElementById('music');
 // function play() {
@@ -31,16 +23,20 @@ const coolSongs = [
 // }
 //THIS ONE WORKS
 
+/* Play button with play audio event. HOW MAKE THIS LOOPIE? */
+
+const coolSongs = ['audio/daze.mp3', 'audio/test1.mp3', 'audio/test2.mp3'];
 
 /*PLAYGROUND TEST SITE */
 
+const playButton = document.querySelector('#play');
+const audioElement = document.querySelector('#music');
+
 playButton.addEventListener('click', () => {
   const coolSong = coolSongs[Math.floor(Math.random() * coolSongs.length)];
- function() {
-   coolSong.play();
+  audio.src = `${coolSong}`;
+  console.log(coolSong);
+  play(coolSong);
 });
 
-
-
-
-/* */ 
+/* */
