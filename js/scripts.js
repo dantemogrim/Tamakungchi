@@ -8,14 +8,22 @@ const quotes = [
   'Vad är det här för rätt? Små-Tarzans med Allan-syndrom?',
 ];
 
+const quote = quotes[Math.floor(Math.random() * quotes.length)];
+
 /* Feed button with window alert event. */
 const feedButton = document.getElementById('feed');
 
 feedButton.addEventListener('click', () => {
-  window.alert('Tack för maten, sa soldaten, jag vill inte diska faten!');
+  window.alert(quote);
 });
 
-/* Play button with play audio event. */
+/* Play button with play audio event. HOW MAKE THIS LOOPIE? */
+
+const coolSongs = [
+  'audio/daze-tamagotchi.mp3',
+  'this-song.mp3',
+  'that-song.mp3',
+];
 
 let tamagotchiSong = document.getElementById('music');
 function play() {
