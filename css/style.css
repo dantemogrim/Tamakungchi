@@ -21,7 +21,6 @@ p {
 body {
   background-image: url('../imgs/zebra.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
   background-color: var(--bgColor);
 }
 
@@ -53,7 +52,7 @@ button {
   border: 1rem double #3351ff;
   box-shadow: 1vw 1vw 3vw 2vw rgb(16, 16, 16);
   color: white;
-  font-family: 'tahoma';
+  font-family: 'Comic Sans';
 }
 
 footer {
