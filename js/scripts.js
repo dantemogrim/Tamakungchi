@@ -16,27 +16,29 @@ feedButton.addEventListener('click', () => {
   window.alert(quote);
 });
 
-//THIS ONE WORKS
-// let tamagotchiSong = document.getElementById('music');
-// function play() {
-//   tamagotchiSong.play();
-// }
-//THIS ONE WORKS
-
-/* Play button with play audio event. HOW MAKE THIS LOOPIE? */
-
-const coolSongs = ['audio/daze.mp3', 'audio/test1.mp3', 'audio/test2.mp3'];
+const coolSongs = [
+  '../audio/daze.mp3',
+  '../audio/test1.mp3',
+  '../audio/test2.mp3',
+];
 
 /*PLAYGROUND TEST SITE */
 
-const playButton = document.querySelector('#play');
-const audioElement = document.querySelector('#music');
+// const playButton = document.querySelector('#play');
+// const audioElement = document.querySelector('#music');
 
-playButton.addEventListener('click', () => {
-  const coolSong = coolSongs[Math.floor(Math.random() * coolSongs.length)];
-  audio.src = `${coolSong}`;
-  console.log(coolSong);
-  play(coolSong);
-});
+// playButton.addEventListener('click', () => {
+//   const coolSong = coolSongs[Math.floor(Math.random() * coolSongs.length)];
+//   audio.src = `${coolSong}`;
+//   console.log(coolSong);
+//   play(coolSong);
+// });
 
 /* */
+
+const audioElement = document.getElementById('music');
+
+audioElement.addEventListener('click', () => {
+  const coolSong = coolSongs[Math.floor(Math.random() * coolSongs.length)];
+  audio.play(coolSong);
+});
