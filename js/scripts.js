@@ -1,4 +1,4 @@
-//addEventListener 'click' iteration to the 'feed' button.
+// addEventListener 'click' iteration to the 'feed' button.
 const quotes = [
   '👑"Tack för maten, sa soldaten, jag vill inte diska faten."👑',
   '🤴"Det kommer inga stekta sparvar flygande om du inte själv bemödar dig om att göra ditt bästa."🤴',
@@ -14,7 +14,7 @@ feedButton.addEventListener('click', () => {
   window.alert(quote);
 });
 
-//addEventListener 'click' iteration when 'play' button is clicked.
+// addEventListener 'click' iteration when 'play' button is clicked.
 const coolSongs = [
   './audio/daze.mp3',
   './audio/kungen-klubb.mp3',
@@ -26,7 +26,7 @@ const playBtn = document.getElementById('play');
 
 //Assigning addEventListener 'click' event to the button element.
 playBtn.addEventListener('click', () => {
-  //Randomizes the songs and assigns it to a variable.
+  // Randomizes the songs and assigns it to a variable.
   const oneSong = coolSongs[Math.floor(Math.random() * coolSongs.length)];
 
   // Creating Audio file and assigning it to a variable.
