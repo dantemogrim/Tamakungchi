@@ -21,6 +21,23 @@ const coolSongs = [
   './audio/vendela-galapalagutchi.mp3',
 ];
 
+<<<<<<< HEAD
+=======
+/*PLAYGROUND TEST SITE */
+
+// const playButton = document.querySelector('#play');
+// const audioElement = document.querySelector('#music');
+
+// playButton.addEventListener('click', () => {
+//   const coolSong = coolSongs[Math.floor(Math.random() * coolSongs.length)];
+//   audio.src = `${coolSong}`;
+//   console.log(coolSong);
+//   play(coolSong);
+// });
+
+/* */
+
+>>>>>>> parent of 584355f... gettingthatplaybuttongoing
 const audioElement = document.getElementById('music');
 
 audioElement.addEventListener('click', () => {
