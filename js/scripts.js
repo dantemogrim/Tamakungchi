@@ -1,3 +1,6 @@
+/* Line 1- is about the three button elements and getting them to iterate
+an array and randomizing the order of them. */
+
 // addEventListener 'click' iteration to the 'feed' button.
 const quotes = [
   '👑"Tack för maten, sa soldaten, jag vill inte diska faten."👑',
@@ -37,4 +40,26 @@ playBtn.addEventListener('click', () => {
 
   // Let's play it.
   tamagotchiSong.play();
+});
+
+// Moving on to the 'discipline' button and getting it to do the same thing.
+const disciplineSound = ['./audio/kungen-klubb.mp3'];
+
+// addEventListener 'click' when 'Discipline' button is clicked.
+const disciplineBtn = document.getElementById('discipline');
+
+//Assigning addEventListener 'click' event to the button element.
+disciplineBtn.addEventListener('click', () => {
+  // Randomizes the songs and assigns it to a variable.
+  const oneDisciplineAudio =
+    disciplineSound[Math.floor(Math.random() * disciplineSound.length)];
+
+  // Creating Audio file and assigning it to a variable.
+  const disciplinaryAudio = new Audio();
+
+  // Assigning the path to the song.
+  disciplinaryAudio.src = oneDisciplineAudio;
+
+  // Let's play it.
+  disciplinaryAudio.play();
 });

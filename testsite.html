@@ -3,34 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>01</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
   </head>
   <body>
-    <!--THE BUTTON-->
-<p>hello</p>
-<p>hello</p>
-<p>hello</p>
-<p>hello</p>
-<p>hello</p>
-      <!--THE BUTTON-->
-    </button>
+    <button>Cheer me up</button>
     <script>
-      function hide(e){
-  e.currentTarget.style.visibility = 'hidden';
-  console.log(e.currentTarget);
-  // When this function is used as an event handler: this === e.currentTarget
-}
+      const button = document.querySelector('button');
+      button.addEventListener('click', () => {
+        window.alert('You are doing amazing, sweetie!');
+      });
 
-var ps = document.getElementsByTagName('p');
-
-for(var i = 0; i < ps.length; i++){
-  // Console: print the clicked <p> element 
-  ps[i].addEventListener('click', hide, false);
-}
-// Console: print <body>
-document.body.addEventListener('click', hide, false);
-
-// Click around and make paragraphs disappear
+      document.getElementById('hello').addEventListener(
+        'click',
+        function (e) {
+          e.preventDefault();
+          this.style.background = 'red';
+          this.innerText = 'Hello World clicked';
+        },
+        false
+      );
+      document.getElementById('hello').addEventListener(
+        'dblclick',
+        function () {
+          this.style.background = 'green';
+        },
+        false
+      );
     </script>
   </body>
 </html>

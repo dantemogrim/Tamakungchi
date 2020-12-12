@@ -19,7 +19,7 @@ p {
 }
 
 body {
-  background-image: url('../imgs/zebra.jpg');
+  background-image: url('../media/zebra.jpg');
   background-repeat: no-repeat;
   background-color: var(--bgColor);
 }
@@ -41,9 +41,21 @@ main {
   box-shadow: 1vw 1vw 3vw 2vw rgb(16, 16, 16);
 }
 
-img.kingen {
+/* img.kingen {
   border: 1rem inset #c3d901;
   border-radius: 30% 30%;
+} */
+
+div {
+  background-image: url('media/k.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30% 30%;
+  border: 1rem inset #c3d901;
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+  width: 100%;
 }
 
 button {
