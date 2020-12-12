@@ -1,6 +1,3 @@
-/* Line 1- is about the three button elements and getting them to iterate
-an array and randomizing the order of them. */
-
 // addEventListener 'click' iteration to the 'feed' button.
 const quotes = [
   '👑"Tack för maten, sa soldaten, jag vill inte diska faten."👑',
@@ -19,9 +16,9 @@ feedButton.addEventListener('click', () => {
 
 // addEventListener 'click' iteration when 'play' button is clicked.
 const coolSongs = [
-  './audio/daze.mp3',
-  './audio/kungen-klubb.mp3',
-  './audio/vendela-galapalagutchi.mp3',
+  '../audio/daze.mp3',
+  '../audio/kungen-klubb.mp3',
+  '../audio/vendela-galapalagutchi.mp3',
 ];
 
 // Grabbing the button element.
@@ -43,7 +40,7 @@ playBtn.addEventListener('click', () => {
 });
 
 // Moving on to the 'discipline' button and getting it to do the same thing.
-const disciplineSound = ['./audio/kungen-klubb.mp3'];
+const disciplineSound = ['../audio/kungen-klubb.mp3'];
 
 // addEventListener 'click' when 'Discipline' button is clicked.
 const disciplineBtn = document.getElementById('discipline');

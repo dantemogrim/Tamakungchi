@@ -1,6 +1,6 @@
 //addEventListener mouseover to change gifs to div nested within the main element.
 
-let gifChanger = document.querySelector('div');
+let gifChanger = document.getElementById('gifContainer');
 
 gifChanger.addEventListener('mouseover', () => {
   gifChanger.style.backgroundImage = `url('../media/kingen.gif')`;

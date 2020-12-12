@@ -1,7 +1,7 @@
 /* CSS variable colorations and hero image. */
 
 :root {
-  --bgColor: powderblue;
+  --bgColor: teal;
   --borderColor: hotpink;
   --headerColor: mediumpurple;
   --headingColors: white;
@@ -20,6 +20,7 @@ p {
 
 body {
   background-image: url('../media/zebra.jpg');
+  background-size: contain 100vh;
   background-repeat: no-repeat;
   background-color: var(--bgColor);
 }
@@ -41,13 +42,8 @@ main {
   box-shadow: 1vw 1vw 3vw 2vw rgb(16, 16, 16);
 }
 
-/* img.kingen {
-  border: 1rem inset #c3d901;
-  border-radius: 30% 30%;
-} */
-
 div {
-  background-image: url('media/kingen.gif');
+  background-image: url('../media/kingen.gif');
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 30% 30%;
