@@ -22,18 +22,23 @@ const coolSongs = [
   '../audio/test2.mp3',
 ];
 
-// Grabbing the button element.
-const playBtn = document.getElementById('play');
+/*PLAYGROUND TEST SITE */
 
-// Assigning addEventListener click event to the button element.
-playBtn.addEventListener('click', () => {
-  // Randomizes the songs and assigns it to the variable.
-  const oneSong = coolSongs[Math.floor(Math.random() * coolSongs.length)];
+// const playButton = document.querySelector('#play');
+// const audioElement = document.querySelector('#music');
 
-  // Creating Audio file and assigning it to a variable.
-  const tamagotchiSong = new Audio();
-  // Assigning the path to the song.
-  tamagotchiSong.src = oneSong;
-  // Let's play it.
-  tamagotchiSong.play();
+// playButton.addEventListener('click', () => {
+//   const coolSong = coolSongs[Math.floor(Math.random() * coolSongs.length)];
+//   audio.src = `${coolSong}`;
+//   console.log(coolSong);
+//   play(coolSong);
+// });
+
+/* */
+
+const audioElement = document.getElementById('music');
+
+audioElement.addEventListener('click', () => {
+  const coolSong = coolSongs[Math.floor(Math.random() * coolSongs.length)];
+  audio.play(coolSong);
 });
