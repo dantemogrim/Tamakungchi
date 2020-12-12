@@ -14,11 +14,11 @@ feedButton.addEventListener('click', () => {
   window.alert(quote);
 });
 
-//addEventListener 'click' iteration to the 'play' button.
+//addEventListener 'click' iteration when 'play' button is clicked.
 const coolSongs = [
-  '../audio/daze.mp3',
-  '../audio/kungen-klubb.mp3',
-  '../audio/vendela-galapalagutchi.mp3',
+  './audio/daze.mp3',
+  './audio/kungen-klubb.mp3',
+  './audio/vendela-galapalagutchi.mp3',
 ];
 
 const audioElement = document.getElementById('music');
