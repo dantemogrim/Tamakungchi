@@ -15,9 +15,8 @@ feedButton.addEventListener('click', () => {
 });
 
 // addEventListener 'click' iteration when 'play' button is clicked.
-const coolSongs = [
+let coolSongs = [
   '../audio/daze-tamagotchi.mp3',
-  '../audio/daze-tamagotchi(beep).mp3',
   '../audio/daze-tamagotchi(high).mp3',
   '../audio/daze-tamagotchi(low).mp3',
   '../audio/daze-tamagotchi(very_low).mp3',
