@@ -16,9 +16,11 @@ feedButton.addEventListener('click', () => {
 
 // addEventListener 'click' iteration when 'play' button is clicked.
 const coolSongs = [
-  '../audio/daze.mp3',
-  '../audio/kungen-klubb.mp3',
-  '../audio/vendela-galapalagutchi.mp3',
+  '../audio/daze-tamagotchi.mp3',
+  '../audio/daze-tamagotchi(beep).mp3',
+  '../audio/daze-tamagotchi(high).mp3',
+  '../audio/daze-tamagotchi(low).mp3',
+  '../audio/daze-tamagotchi(very_low).mp3',
 ];
 
 // Grabbing the button element.
@@ -40,7 +42,14 @@ playBtn.addEventListener('click', () => {
 });
 
 // Moving on to the 'discipline' button and getting it to do the same thing.
-const disciplineSound = ['../audio/kungen-klubb.mp3'];
+const disciplineSounds = [
+  '../audio/kungen-klubb.mp3',
+  '../audio/kungen-liten_katt.mp3',
+  '../audio/kungen-nee.mp3',
+  '../audio/kungen-nee_short.mp3',
+  '../audio/kungen-faktiskt_inte.mp3',
+  '../audio/kungen-faktiskt_slow.mp3',
+];
 
 // addEventListener 'click' when 'Discipline' button is clicked.
 const disciplineBtn = document.getElementById('discipline');
@@ -49,7 +58,7 @@ const disciplineBtn = document.getElementById('discipline');
 disciplineBtn.addEventListener('click', () => {
   // Randomizes the songs and assigns it to a variable.
   const oneDisciplineAudio =
-    disciplineSound[Math.floor(Math.random() * disciplineSound.length)];
+    disciplineSounds[Math.floor(Math.random() * disciplineSounds.length)];
 
   // Creating Audio file and assigning it to a variable.
   const disciplinaryAudio = new Audio();
