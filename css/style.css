@@ -9,19 +9,16 @@
   --buttonColor: coral;
 }
 
-h1,
-h2,
-h3,
-h4,
-span,
-p {
+header,
+footer {
   color: var(--headingColors);
   text-shadow: 0.3rem 0.4rem 0.5rem #000000;
 }
 
 body {
   background-image: url('../media/zebra.jpg');
-  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: repeat;
   background-color: var(--bgColor);
 }
 
@@ -60,7 +57,7 @@ div {
 button {
   background-color: var(--buttonColor);
   border-radius: 50% 50%;
-  border: 1rem double #3351ff;
+  border: 0.6rem solid #3351ff;
   box-shadow: 1vw 1vw 3vw 2vw rgb(16, 16, 16);
   color: white;
   font-family: 'Comic Sans';
