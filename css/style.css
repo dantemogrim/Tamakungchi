@@ -4,14 +4,14 @@
   --bgColor: teal;
   --borderColor: hotpink;
   --headerColor: mediumpurple;
-  --headingColors: white;
-  --mainColor: rgb(213, 233, 43);
+  --textColors: white;
+  --mainColor: mediumaquamarine;
   --buttonColor: coral;
 }
 
 header,
 footer {
-  color: var(--headingColors);
+  color: var(--textColors);
   text-shadow: 0.3rem 0.4rem 0.5rem #000000;
 }
 
@@ -25,6 +25,7 @@ body {
 header,
 footer {
   background-color: var(--headerColor);
+  /* Sparkles in banner. */
   background-image: url('../media/WG8P.gif');
   background-repeat: repeat;
   background-size: auto;
@@ -36,19 +37,20 @@ footer {
 
 main {
   background-color: var(--mainColor);
-  background-image: linear-gradient(rgb(191, 255, 162), rgb(217, 255, 79));
+  background-image: linear-gradient(rgb(87, 165, 142), rgb(92, 46, 255));
   border-radius: 30% 30%;
-  border: 1rem outset #c3d901;
+  border: 1rem outset rgb(203, 167, 23);
   box-shadow: 1vw 1vw 3vw 2vw rgb(16, 16, 16);
 }
 
 div#gifContainer {
   align-self: center;
+  /* King gif when he is smirking. */
   background-image: url('../media/kingen.gif');
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 30% 30%;
-  border: 1rem inset #c3d901;
+  border: 1rem inset rgb(203, 167, 23);
   display: flex;
   margin: 5%;
 }
@@ -56,7 +58,7 @@ div#gifContainer {
 button {
   background-color: var(--buttonColor);
   border-radius: 50% 50%;
-  border: 0.6rem solid #3351ff;
+  border: 0.6rem solid #ffc8c8;
   box-shadow: 1vw 1vw 3vw 2vw rgb(16, 16, 16);
   color: white;
   font-family: 'Comic Sans';
