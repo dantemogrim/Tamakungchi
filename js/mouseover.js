@@ -3,9 +3,9 @@
 let gifChanger = document.getElementById('gifContainer');
 
 gifChanger.addEventListener('mouseover', () => {
-  gifChanger.style.backgroundImage = `url('../media/kingen.gif')`;
+  gifChanger.style.backgroundImage = `url('../media/dancing-king.gif')`;
 });
 
 gifChanger.addEventListener('mouseleave', () => {
-  gifChanger.style.backgroundImage = `url('../media/knugen.gif')`;
+  gifChanger.style.backgroundImage = `url('../media/king-smirk.gif')`;
 });

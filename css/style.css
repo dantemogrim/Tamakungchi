@@ -20,7 +20,6 @@ p {
 
 body {
   background-image: url('../media/zebra.jpg');
-  background-size: contain 100vh;
   background-repeat: no-repeat;
   background-color: var(--bgColor);
 }
