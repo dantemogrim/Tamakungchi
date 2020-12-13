@@ -1,4 +1,5 @@
-//addEventListener mouseover to change gifs to div nested within the main element.
+'use strict';
+// A mouseover event that swaps the main gif on the site.
 
 let gifChanger = document.getElementById('gifContainer');
 

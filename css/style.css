@@ -1,4 +1,4 @@
-/* CSS variable colorations and hero image. */
+/* CSS variable colorations etc. */
 
 :root {
   --bgColor: teal;
@@ -13,6 +13,7 @@ h1,
 h2,
 h3,
 h4,
+span,
 p {
   color: var(--headingColors);
   text-shadow: 0.3rem 0.4rem 0.5rem #000000;
@@ -27,9 +28,12 @@ body {
 header,
 footer {
   background-color: var(--headerColor);
+  background-image: url('../media/WG8P.gif');
+  background-repeat: repeat;
+  background-size: auto;
+  border-color: var(--borderColor);
   border-style: ridge;
   border-width: 0.9pc;
-  border-color: var(--borderColor);
   color: white;
 }
 
@@ -43,7 +47,7 @@ main {
 
 div {
   background-image: url('../media/kingen.gif');
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   border-radius: 30% 30%;
   border: 1rem inset #c3d901;
@@ -60,8 +64,4 @@ button {
   box-shadow: 1vw 1vw 3vw 2vw rgb(16, 16, 16);
   color: white;
   font-family: 'Comic Sans';
-}
-
-footer {
-  background-color: var(--headerColor);
 }

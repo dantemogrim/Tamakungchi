@@ -1,4 +1,7 @@
-// addEventListener 'click' iteration to the 'feed' button.
+'use strict';
+/* This is the JavaScript applied to the three buttons on the website.
+They work similarly except they all have different contents.
+First runner upp is an addEventListener 'click' iteration to the 'feed' button. */
 const quotes = [
   '👑"Tack för maten, sa soldaten, jag vill inte diska faten."👑',
   '🤴"Det kommer inga stekta sparvar flygande om du inte själv bemödar dig om att göra ditt bästa."🤴',
@@ -14,7 +17,7 @@ feedButton.addEventListener('click', () => {
   window.alert(quote);
 });
 
-// addEventListener 'click' iteration when 'play' button is clicked.
+// A click event that fires off a random song from an array whenever the 'play' button is pressed.
 let coolSongs = [
   '../audio/daze-tamagotchi.mp3',
   '../audio/daze-tamagotchi(high).mp3',
@@ -26,7 +29,7 @@ let coolSongs = [
 // Grabbing the button element.
 const playBtn = document.getElementById('play');
 
-//Assigning addEventListener 'click' event to the button element.
+// Assigning 'click' to the button element.
 playBtn.addEventListener('click', () => {
   // Randomizes the songs and assigns it to a variable.
   const oneSong = coolSongs[Math.floor(Math.random() * coolSongs.length)];
@@ -37,11 +40,11 @@ playBtn.addEventListener('click', () => {
   // Assigning the path to the song.
   tamagotchiSong.src = oneSong;
 
-  // Let's play it.
+  // Let's play the song.
   tamagotchiSong.play();
 });
 
-// Moving on to the 'discipline' button and getting it to do the same thing.
+// Moving on to the array meant for the 'discipline' button.
 const disciplineSounds = [
   '../audio/kungen-klubb.mp3',
   '../audio/kungen-liten_katt.mp3',
@@ -51,21 +54,12 @@ const disciplineSounds = [
   '../audio/kungen-faktiskt_slow.mp3',
 ];
 
-// addEventListener 'click' when 'Discipline' button is clicked.
+// Same execution applied here as with the previous 'play' button.
 const disciplineBtn = document.getElementById('discipline');
-
-//Assigning addEventListener 'click' event to the button element.
 disciplineBtn.addEventListener('click', () => {
-  // Randomizes the songs and assigns it to a variable.
   const oneDisciplineAudio =
     disciplineSounds[Math.floor(Math.random() * disciplineSounds.length)];
-
-  // Creating Audio file and assigning it to a variable.
   const disciplinaryAudio = new Audio();
-
-  // Assigning the path to the song.
   disciplinaryAudio.src = oneDisciplineAudio;
-
-  // Let's play it.
   disciplinaryAudio.play();
 });
