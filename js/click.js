@@ -21,6 +21,7 @@ const coolSongs = [
   '../audio/daze-tamagotchi(high).mp3',
   '../audio/daze-tamagotchi(low).mp3',
   '../audio/daze-tamagotchi(very_low).mp3',
+  '../audio/vendela-gala_pala_gutchi.mp3',
 ];
 
 // Grabbing the button element.
