@@ -2,21 +2,39 @@
 
 /* Smartphones. */
 @media screen and (max-width: 560px) {
+  h1 {
+    font-size: 2.8rem;
+  }
   p {
-    font-size: 0.65rem;
+    font-size: 0.7rem;
+  }
+  span {
+    font-size: 0.8rem;
   }
 }
 
 /* Tablets. */
 @media screen and (min-width: 560px) {
+  h1 {
+    font-size: 3.5rem;
+  }
   p {
-    font-size: 1rem;
+    font-size: 1.1rem;
+  }
+  span {
+    font-size: 1.2rem;
   }
 }
 
 /* Desktops and larger screens. */
 @media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 5rem;
+  }
   p {
     font-size: 1.6rem;
+  }
+  span {
+    font-size: 1.7rem;
   }
 }
