@@ -11,6 +11,14 @@
   span {
     font-size: 0.8rem;
   }
+  main {
+    width: 95vw;
+    height: 80vh;
+  }
+  div#gifContainer {
+    width: 90%;
+    height: 60vw;
+  }
 }
 
 /* Tablets. */
@@ -24,6 +32,14 @@
   span {
     font-size: 1.2rem;
   }
+  main {
+    width: 90vw;
+    height: 80vh;
+  }
+  div#gifContainer {
+    width: 70%;
+    height: 40vw;
+  }
 }
 
 /* Desktops and larger screens. */
@@ -36,5 +52,13 @@
   }
   span {
     font-size: 1.7rem;
+  }
+  main {
+    width: 90vw;
+    height: 100vh;
+  }
+  div#gifContainer {
+    width: 70%;
+    height: 40vw;
   }
 }

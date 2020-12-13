@@ -35,19 +35,16 @@ footer {
   padding: 2%;
 }
 
-div#gifContainer {
-  display: flex;
-}
-
 main {
   align-self: center;
   flex-grow: 1;
   display: flex;
   justify-content: center;
-  margin: 5vw;
-  padding: 5vw;
-  width: 80vw;
-  height: auto;
+  margin: 3vw;
+  /* padding: 5vw; */
+  width: 90vw;
+  /* height: auto; */
+  flex-wrap: wrap;
 }
 
 section {

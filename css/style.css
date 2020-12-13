@@ -42,16 +42,15 @@ main {
   box-shadow: 1vw 1vw 3vw 2vw rgb(16, 16, 16);
 }
 
-div {
+div#gifContainer {
+  align-self: center;
   background-image: url('../media/kingen.gif');
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   border-radius: 30% 30%;
   border: 1rem inset #c3d901;
   display: flex;
-  height: 50vh;
-  justify-content: center;
-  width: 100%;
+  margin: 5%;
 }
 
 button {
