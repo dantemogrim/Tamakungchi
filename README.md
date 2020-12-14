@@ -4,7 +4,8 @@
 
 ## About
 
-This based off of a school assignment called 'The Useless Web' - a reference to an actual website. The idea was to create something pointless, in order to get acquanited with some of the basic syntax of JavaScript. <br>
+This project is based off of a school assignment called 'The Useless Web' - a reference to an actual [website](https://theuselessweb.com/). The instructions were in short to create a pointless site, in order to get acquainted with some of the basic syntax of JavaScript. <br>
+I decided to go with a nostalgic approach. Hope you like it! <br>
 The requirements included the following: <br>
 
 > - The project should use at least three types of event listeners for example scroll, click and keypress.
