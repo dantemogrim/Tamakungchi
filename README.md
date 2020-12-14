@@ -20,7 +20,7 @@ This based off of a school assignment called 'The Useless Web' - a reference to 
 
 To see this project, do one of two things.
 <br>
-_Option 1:_ (easiest) is to just to head on over to the following link:
+_Option 1:_ [Head on over to the link that's attached to this sentence.](https://tamakungchi.vercel.app/)
 
 _Option 2:_
 
@@ -33,8 +33,8 @@ _Option 2:_
 
 ## Testers
 
-- [Person 1](https://github.com/mogrim-91)
-- [Person 2](https://github.com/mogrim-91)
+- [Simon Lindstedt](https://github.com/simonlindstedt)
+- [Rikard Segerkvist](https://github.com/rikardseg/)
 
 <br>
 
