@@ -2,8 +2,10 @@
 
 /* Smartphones. */
 @media screen and (max-width: 560px) {
+  /* Text adjustments */
   h1 {
     font-size: 2.8rem;
+    padding-bottom: 2%;
   }
   p {
     font-size: 0.7rem;
@@ -11,9 +13,14 @@
   span {
     font-size: 0.8rem;
   }
+  /* Remaining content. */
   main {
     width: 95vw;
     height: 80vh;
+  }
+
+  section {
+    margin: 2%;
   }
   div#gifContainer {
     width: 90%;
@@ -23,6 +30,7 @@
 
 /* Tablets. */
 @media screen and (min-width: 560px) {
+  /* Text adjustments */
   h1 {
     font-size: 3.5rem;
   }
@@ -32,6 +40,11 @@
   span {
     font-size: 1.2rem;
   }
+  /* Remaining content. */
+  header {
+    padding-bottom: 2%;
+  }
+
   main {
     width: 90vw;
     height: 80vh;
@@ -44,8 +57,9 @@
 
 /* Desktops and larger screens. */
 @media screen and (min-width: 1024px) {
+  /* Text adjustments */
   h1 {
-    font-size: 5rem;
+    font-size: 3rem;
   }
   p {
     font-size: 1.6rem;
@@ -53,12 +67,34 @@
   span {
     font-size: 1.7rem;
   }
-  main {
-    width: 90vw;
-    height: 100vh;
+
+  /* Remaining content. */
+
+  header {
+    padding-bottom: 1.5%;
   }
+
+  main {
+    width: 50vw;
+  }
+
   div#gifContainer {
-    width: 70%;
-    height: 40vw;
+    width: 60%;
+    height: 20vw;
+  }
+
+  section {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1%;
+  }
+
+  button {
+    width: 15vw;
+    height: 20vh;
+  }
+
+  footer {
+    height: 12vh;
   }
 }

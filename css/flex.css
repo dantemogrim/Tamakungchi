@@ -30,7 +30,11 @@ header,
 footer {
   justify-content: center;
   width: 100%;
-  padding: 2%;
+  padding: 1%;
+}
+
+header {
+  padding-bottom: 0.5%;
 }
 
 main {
@@ -38,7 +42,7 @@ main {
   flex-grow: 1;
   display: flex;
   justify-content: center;
-  margin: 3vw;
+  margin: 1vw;
   width: 90vw;
   flex-wrap: wrap;
 }
@@ -47,7 +51,7 @@ section {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  margin: 5%;
+  margin: 1%;
 }
 
 button {
