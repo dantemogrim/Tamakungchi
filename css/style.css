@@ -3,7 +3,7 @@
 :root {
   --bgColor: teal;
   --borderColor: hotpink;
-  --buttonColor: blue;
+  --buttonColor: royalblue;
   --headerColor: mediumpurple;
   --mainColor: mediumaquamarine;
   --textColors: white;
@@ -67,7 +67,7 @@ div#gifContent img {
 button {
   background-color: var(--buttonColor);
   border-radius: 50% 50%;
-  border: 0.6rem solid orange;
+  border: 0.6rem solid cadetblue;
   box-shadow: 1vw 1vw 3vw 2vw rgb(16, 16, 16);
   color: white;
 }
