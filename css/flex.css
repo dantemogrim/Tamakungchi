@@ -28,8 +28,6 @@ h1 {
 
 header,
 footer {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   width: 100%;
   padding: 2%;

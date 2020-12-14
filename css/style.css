@@ -9,9 +9,12 @@
   --buttonColor: coral;
 }
 
+* {
+  color: var(--textColors);
+}
+
 header,
 footer {
-  color: var(--textColors);
   text-shadow: 0.3rem 0.4rem 0.5rem #000000;
 }
 
@@ -26,13 +29,17 @@ header,
 footer {
   background-color: var(--headerColor);
   /* Sparkles in banner. */
-  background-image: url('../media/WG8P.gif');
+  background-image: url('../media/sparkles.gif');
   background-repeat: repeat;
   background-size: auto;
   border-color: var(--borderColor);
   border-style: ridge;
   border-width: 0.9pc;
-  color: white;
+}
+
+.headergifs {
+  width: 5vw;
+  height: 5vh;
 }
 
 main {
@@ -46,7 +53,7 @@ main {
 div#gifContainer {
   align-self: center;
   /* King gif when he is smirking. */
-  background-image: url('../media/kingen.gif');
+  background-image: url('../media/king-smirk.gif');
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 30% 30%;
@@ -61,5 +68,4 @@ button {
   border: 0.6rem solid #ffc8c8;
   box-shadow: 1vw 1vw 3vw 2vw rgb(16, 16, 16);
   color: white;
-  font-family: 'Comic Sans';
 }
