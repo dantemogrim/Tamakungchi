@@ -1,12 +1,17 @@
 'use strict';
 // A mouseover event that swaps the main gif on the site.
 
-let gifChanger = document.getElementById('gifContainer');
+const helloKingen = document.querySelector('#gifContainer');
 
-gifChanger.addEventListener('mouseover', () => {
-  gifChanger.style.backgroundImage = `url('../media/dancing-king.gif')`;
+const image = document.querySelector('#gifContainer img');
+
+helloKingen.addEventListener('mouseover', () => {
+  image.src = 'media/dancing-king.gif';
+  image.alt =
+    'The Swedish king on the dancefloor. Dancing, shooting his chest out and back.';
 });
 
-gifChanger.addEventListener('mouseleave', () => {
-  gifChanger.style.backgroundImage = `url('../media/king-smirk.gif')`;
+helloKingen.addEventListener('mouseleave', () => {
+  image.src = 'media/king-smirk.gif';
+  image.alt = 'The Swedish king in a tuxedo, smirking and wobbling his head.';
 });

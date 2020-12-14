@@ -52,14 +52,17 @@ main {
 
 div#gifContainer {
   align-self: center;
-  /* King gif when he is smirking. */
-  background-image: url('../media/king-smirk.gif');
-  background-repeat: no-repeat;
-  background-size: cover;
   border-radius: 30% 30%;
   border: 1rem inset rgb(203, 167, 23);
+  overflow: hidden;
+  justify-content: center;
   display: flex;
+  width: auto;
   margin: 5%;
+}
+
+div#gifContent img {
+  width: 100%;
 }
 
 button {
