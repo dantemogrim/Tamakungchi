@@ -1,6 +1,6 @@
 # Tamakungchi
 
-<img src="https://media.giphy.com/media/4oZpTY30l6XtK/giphy.gif">
+<img alt="Dwight Schrute smirking while Jim Halpert puts a crown on Dwigth's head." src="https://media.giphy.com/media/okLCopqw6ElCDnIhuS/giphy.gif">
 
 ## About
 
