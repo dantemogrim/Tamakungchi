@@ -23,7 +23,6 @@ The requirements included the following: <br>
 > - The application should be pushed to a public repository on GitHub.
 > - The application should be useless 🙅‍♀️
 
-<br>
 
 ## Coding languages
 
@@ -31,7 +30,6 @@ The requirements included the following: <br>
 - HTML
 - JavaScript
 
-<br>
 
 ## Instructions
 
@@ -46,20 +44,17 @@ _Option 2:_
 3. Create a local server by using the following command: `php -S localhost:8000`
 4. Open your browser of choice, write the name of your localhost in the url followed by `/index.php` and access the project from there.
 
-<br>
 
 ## Testers
 
 - [Simon Lindstedt](https://github.com/simonlindstedt)
 - [Rikard Segerkvist](https://github.com/rikardseg/)
 
-<br>
 
 ## Creator
 
 - [Dante Mogrim](https://github.com/mogrim-91)
 
-<br>
 
 ## License
 
