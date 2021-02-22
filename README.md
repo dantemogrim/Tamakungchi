@@ -6,7 +6,7 @@
 
 This project is based off of a school assignment called 'The Useless Web' - a reference to an actual [website](https://theuselessweb.com/). The instructions were in short to create a pointless site, in order to get acquainted with some of the basic syntax of JavaScript. <br>
 I decided to go with a nostalgic approach. Hope you like it! <br>
-The requirements included the following: <br>
+<details><summary>The requirements included the following:</summary> <br>
 
 > - The project should use at least three types of event listeners for example scroll, click and keypress.
 > - The project should use some kind of iteration for example map, forEach or for.
@@ -22,7 +22,7 @@ The requirements included the following: <br>
 > - The project should be deployed to either Netlify or Vercel
 > - The application should be pushed to a public repository on GitHub.
 > - The application should be useless 🙅‍♀️
-
+</details>
 
 ## Coding languages
 
@@ -52,9 +52,9 @@ _Option 2:_
 
 ## Creator
 
-- [Dante Mogrim](https://github.com/mogrim-91)
+[Dante Mogrim](https://github.com/mogrim-91)
 
 
 ## License
 
-- [MIT](https://en.wikipedia.org/wiki/MIT_License)
+[MIT](https://en.wikipedia.org/wiki/MIT_License)
