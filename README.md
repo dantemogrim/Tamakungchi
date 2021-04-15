@@ -52,7 +52,7 @@ _Option 2:_
 
 ## Creator
 
-[Dante Mogrim](https://github.com/mogrim-91)
+[Dante Mogrim](https://github.com/dantemogrim)
 
 
 ## License
